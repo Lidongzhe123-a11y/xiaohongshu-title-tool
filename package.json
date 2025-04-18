@@ -1,8 +1,0 @@
-{
-  "scripts": {
-    "build": "pip install -r requirements.txt"
-  },
-  "engines": {
-    "python": "3.9.x"
-  }
-}
