@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "app.py",
+      "use": "@vercel/python",
+      "config": { "maxLambdaSize": "15mb" }  # 可选，防止打包过大
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "xiaohongshu_title_tool.py" }  // 明确指向入口文件
+  ]
+}
