@@ -1,4 +1,0 @@
-flask==2.3.2
-qianfan==0.1.10
-python-dotenv==1.0.0
-gunicorn==20.1.0  # 必须添加 gunicorn
