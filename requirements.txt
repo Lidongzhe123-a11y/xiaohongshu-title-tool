@@ -1,0 +1,4 @@
+flask==2.3.2
+qianfan==0.4.12.3
+python-dotenv==1.0.0
+certifi
